@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: azzarb/custom-github-actions1@v2
+        uses: azzarb/custom-github-actions1@master
         with:
           who-to-greet: 'Azeem this github repo owner'
       # Use the output from the `hello` step
