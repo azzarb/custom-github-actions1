@@ -7,7 +7,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - id: foo
-        uses: azzarb/custom-github-actions@main
+        uses: azzarb/custom-github-actions1@main
         with:
           who-to-greet: 'Azeem the Octocat'
       - run: echo random-number ${{ steps.foo.outputs.random-number }}
