@@ -1,4 +1,9 @@
-on: [push]
+name: demo action
+
+on: 
+  push: 
+    branches:
+      - main
 
 jobs:
   hello_world_job:
